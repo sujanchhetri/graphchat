@@ -1,0 +1,28 @@
+{
+  "name": "graphchat",
+  "version": "1.0.0",
+  "description": "# Stack * Node.js * Graphql * Apollo server * Sequelize  ORM * SQL * React.js",
+  "main": "server.js",
+  "dependencies": {
+    "apollo-server": "^2.21.0",
+    "graphql": "^15.5.0",
+    "mysql2": "^2.2.5",
+    "sequelize": "^6.5.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sujanchhetri/graphchat.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sujanchhetri/graphchat/issues"
+  },
+  "homepage": "https://github.com/sujanchhetri/graphchat#readme"
+}
