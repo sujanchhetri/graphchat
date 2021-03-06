@@ -58,7 +58,13 @@ export default function Users() {
 						})
 					}
 				>
-					<Image src={user.imageUrl} className="user-image" />
+					<Image
+						src={
+							user.imageUrl ||
+							"https://www.gravatar.com/avatar/00000000000000000000000000000000?d=mp&f=y"
+						}
+						className="user-image"
+					/>
 					<div className="d-none d-md-block ml-2">
 						<p className="text-success">{user.username}</p>
 						<p className="font-weight-light">
